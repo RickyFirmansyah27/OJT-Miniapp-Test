@@ -1,0 +1,33 @@
+POST  http://localhost:5000/register
+Content-Type: application/json
+
+{
+    "name": "Ricky Firmansyah",
+    "email": "admin@gmail.com",
+    "gender": "male",
+    "password": "admin"
+}
+
+
+###
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "email": "admin@gmail.com",
+    "password": "admin"
+}
+
+###
+DELETE http://localhost:5000/logout
+
+###
+GET http://localhost:5000/me
+
+//Redis Cache
+###
+GET http://localhost:5000/products
+
+
+###
+GET http://localhost:5000/products/1
