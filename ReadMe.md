@@ -11,7 +11,7 @@ Fixed :
 - Sidebar dan Navbar menjadi pilihan untuk tampilan frontend, bug terdapat ketika reload untuk memunculkan sidebar
   jika menggunakan Navbar dapat di fixed namun tampilan akan berubah menjadi kurang menarik dan menambahkan
   logic untuk beralih ke login jika session belum tersedia
-- Menggunakan dj.json untuk get datanya (memang dirasa kurang, namun semua implementasi untuk soal OJT bisa berjalan
+- Menggunakan json-server pada db.json untuk get datanya (memang dirasa kurang, namun semua implementasi untuk soal OJT bisa berjalan
   sebagaimana mestinya)
 
 
