@@ -18,6 +18,11 @@ Fixed :
   sebagaimana mestinya)
 
 
+Fitur :
+- Button Check pada Product Page untuk memunculkan modal yang di popup
+- Button Detail pada Product Page mengarahkan detail product berdasarkan IDproduct
+- List Product dan User Active pada Dashboard 
+
 #### Screenshoot LoginPage
 Login Page
 ![LoginPage](images/LoginPage.PNG)
