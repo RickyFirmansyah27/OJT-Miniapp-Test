@@ -6,6 +6,9 @@ Note :
   dialihkan ke dashboard halaman di reload dan redux dev tool tidak membacanya
 - Terdapat bug ketika fecth data dummyjson, pada redux dev tool telah berisi data dengan action fullfield
   namun data tidak tampil pada table
+- Session yang digunakan adalah sequlize-session dengan uuid dari user sebagai session nya
+  Yang dikirimkan ke Client (bisa di hash dengan argon2 sebelum dikirim ke Client) namun, karena terjadi bug reload 
+  Membuat saya mengurungkan hal tersebut 
   
 Fixed : 
 - Sidebar dan Navbar menjadi pilihan untuk tampilan frontend, bug terdapat ketika reload untuk memunculkan sidebar
